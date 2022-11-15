@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+opencv-python
+scikit-image
+tensorboard
+matplotlib
+tqdm
+tensorboardX

@@ -1,0 +1,9 @@
+Driving/RGB_cleanpass/left/0400.png Driving/RGB_cleanpass/right/0400.png Driving/disparity/0400.pfm 
+Driving/RGB_cleanpass/left/0402.png Driving/RGB_cleanpass/right/0402.png Driving/disparity/0402.pfm 
+Driving/RGB_cleanpass/left/0401.png Driving/RGB_cleanpass/right/0401.png Driving/disparity/0401.pfm 
+FlyingThings3D/RGB_cleanpass/left/0006.png FlyingThings3D/RGB_cleanpass/right/0006.png FlyingThings3D/disparity/0006.pfm 
+FlyingThings3D/RGB_cleanpass/left/0008.png FlyingThings3D/RGB_cleanpass/right/0008.png FlyingThings3D/disparity/0008.pfm 
+FlyingThings3D/RGB_cleanpass/left/0007.png FlyingThings3D/RGB_cleanpass/right/0007.png FlyingThings3D/disparity/0007.pfm 
+Monkaa/RGB_cleanpass/left/0050.png Monkaa/RGB_cleanpass/right/0050.png Monkaa/disparity/0050.pfm 
+Monkaa/RGB_cleanpass/left/0049.png Monkaa/RGB_cleanpass/right/0049.png Monkaa/disparity/0049.pfm 
+Monkaa/RGB_cleanpass/left/0048.png Monkaa/RGB_cleanpass/right/0048.png Monkaa/disparity/0048.pfm 
