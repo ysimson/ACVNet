@@ -97,6 +97,24 @@ def test_sample(sample):
     scalar_outputs["Thres2"] = [Thres_metric(disp_est, disp_gt, mask, 2.0) for disp_est in disp_ests]
     scalar_outputs["Thres3"] = [Thres_metric(disp_est, disp_gt, mask, 3.0) for disp_est in disp_ests]
 
+    disparity = disp_ests[0].cpu().numpy()[0, :, :]
+    disparity_gt = disp_gt.cpu().numpy()[0, :, :]
+    fig, axes = plt.subplots(2, 2, figsize=(12, 12))
+    axes[0, 0].imshow(disparity)
+    axes[0, 0].set_title("disparity est")
+
+    axes[0, 1].imshow(disparity_gt)
+    axes[0, 1].set_title("disparity gt")
+
+    left = imgL.cpu().numpy()[0, :, :, :]
+    left = np.transpose(left,  (1, 2, 0))
+    axes[1, 0].imshow(left)
+    axes[1, 0].set_title("left")
+
+    occ_mask = mask[0, :, :]
+    axes[1, 1].imshow(occ_mask)
+    axes[1, 1].set_title("occ_mask")
+
     return tensor2float(loss), tensor2float(scalar_outputs), disp_ests
 
 
